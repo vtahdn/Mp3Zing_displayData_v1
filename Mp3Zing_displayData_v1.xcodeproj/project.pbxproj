@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29AE47072196887A0094CB9E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE47062196887A0094CB9E /* Song.swift */; };
 		29F4D56221916EE900BB9B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F4D56121916EE900BB9B99 /* AppDelegate.swift */; };
-		29F4D56421916EE900BB9B99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F4D56321916EE900BB9B99 /* ViewController.swift */; };
-		29F4D56721916EE900BB9B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D56521916EE900BB9B99 /* Main.storyboard */; };
 		29F4D56921916EEA00BB9B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D56821916EEA00BB9B99 /* Assets.xcassets */; };
 		29F4D56C21916EEA00BB9B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D56A21916EEA00BB9B99 /* LaunchScreen.storyboard */; };
 		29F4D57721916EEA00BB9B99 /* Mp3Zing_displayData_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F4D57621916EEA00BB9B99 /* Mp3Zing_displayData_v1Tests.swift */; };
 		29F4D58221916EEA00BB9B99 /* Mp3Zing_displayData_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F4D58121916EEA00BB9B99 /* Mp3Zing_displayData_v1UITests.swift */; };
+		29F4D59A21916F6F00BB9B99 /* maxVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D59021916F6F00BB9B99 /* maxVolume.png */; };
+		29F4D59B21916F6F00BB9B99 /* minVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D59121916F6F00BB9B99 /* minVolume.png */; };
+		29F4D59C21916F6F00BB9B99 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D59221916F6F00BB9B99 /* pause.png */; };
+		29F4D59D21916F6F00BB9B99 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D59321916F6F00BB9B99 /* thumb.png */; };
+		29F4D59E21916F6F00BB9B99 /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D59421916F6F00BB9B99 /* zing-mp3.jpg */; };
+		29F4D59F21916F6F00BB9B99 /* duration.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D59521916F6F00BB9B99 /* duration.png */; };
+		29F4D5A021916F6F00BB9B99 /* thumbHightLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D59621916F6F00BB9B99 /* thumbHightLight.png */; };
+		29F4D5A121916F6F00BB9B99 /* Full-color-phone-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D59721916F6F00BB9B99 /* Full-color-phone-wallpaper.jpg */; };
+		29F4D5A221916F6F00BB9B99 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D59821916F6F00BB9B99 /* play.png */; };
+		29F4D5A321916F6F00BB9B99 /* iconOnline.png in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D59921916F6F00BB9B99 /* iconOnline.png */; };
+		29F4D5AE21916F8D00BB9B99 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F4D5A821916F8D00BB9B99 /* TFHppleElement.m */; };
+		29F4D5AF21916F8D00BB9B99 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F4D5A921916F8D00BB9B99 /* XPathQuery.m */; };
+		29F4D5B021916F8D00BB9B99 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F4D5AC21916F8D00BB9B99 /* TFHpple.m */; };
+		29F4D5B221916FBC00BB9B99 /* TableViewOnline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F4D5B121916FBC00BB9B99 /* TableViewOnline.swift */; };
+		29F4D5B421916FC600BB9B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F4D5B321916FC600BB9B99 /* Main.storyboard */; };
+		29F4D5B92191701900BB9B99 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F4D5B82191701900BB9B99 /* libxml2.2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29AE47062196887A0094CB9E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		29F4D55E21916EE900BB9B99 /* Mp3Zing_displayData_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mp3Zing_displayData_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F4D56121916EE900BB9B99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29F4D56321916EE900BB9B99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29F4D56621916EE900BB9B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29F4D56821916EEA00BB9B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29F4D56B21916EEA00BB9B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29F4D56D21916EEA00BB9B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +61,27 @@
 		29F4D57D21916EEA00BB9B99 /* Mp3Zing_displayData_v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mp3Zing_displayData_v1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F4D58121916EEA00BB9B99 /* Mp3Zing_displayData_v1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mp3Zing_displayData_v1UITests.swift; sourceTree = "<group>"; };
 		29F4D58321916EEA00BB9B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F4D59021916F6F00BB9B99 /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
+		29F4D59121916F6F00BB9B99 /* minVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minVolume.png; sourceTree = "<group>"; };
+		29F4D59221916F6F00BB9B99 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		29F4D59321916F6F00BB9B99 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		29F4D59421916F6F00BB9B99 /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
+		29F4D59521916F6F00BB9B99 /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
+		29F4D59621916F6F00BB9B99 /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
+		29F4D59721916F6F00BB9B99 /* Full-color-phone-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Full-color-phone-wallpaper.jpg"; sourceTree = "<group>"; };
+		29F4D59821916F6F00BB9B99 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		29F4D59921916F6F00BB9B99 /* iconOnline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconOnline.png; sourceTree = "<group>"; };
+		29F4D5A521916F8C00BB9B99 /* Mp3Zing_displayData_v1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mp3Zing_displayData_v1-Bridging-Header.h"; sourceTree = "<group>"; };
+		29F4D5A721916F8D00BB9B99 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		29F4D5A821916F8D00BB9B99 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		29F4D5A921916F8D00BB9B99 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		29F4D5AA21916F8D00BB9B99 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		29F4D5AC21916F8D00BB9B99 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		29F4D5AD21916F8D00BB9B99 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		29F4D5B121916FBC00BB9B99 /* TableViewOnline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewOnline.swift; sourceTree = "<group>"; };
+		29F4D5B321916FC600BB9B99 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		29F4D5B62191701200BB9B99 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		29F4D5B82191701900BB9B99 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libxml2.2.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F4D5B92191701900BB9B99 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +113,12 @@
 		29F4D55521916EE900BB9B99 = {
 			isa = PBXGroup;
 			children = (
+				29F4D5B82191701900BB9B99 /* libxml2.2.dylib */,
 				29F4D56021916EE900BB9B99 /* Mp3Zing_displayData_v1 */,
 				29F4D57521916EEA00BB9B99 /* Mp3Zing_displayData_v1Tests */,
 				29F4D58021916EEA00BB9B99 /* Mp3Zing_displayData_v1UITests */,
 				29F4D55F21916EE900BB9B99 /* Products */,
+				29F4D5B52191701100BB9B99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +135,12 @@
 		29F4D56021916EE900BB9B99 /* Mp3Zing_displayData_v1 */ = {
 			isa = PBXGroup;
 			children = (
+				29F4D5A421916F7B00BB9B99 /* Hpple */,
+				29F4D58F21916F4C00BB9B99 /* Resource */,
 				29F4D56121916EE900BB9B99 /* AppDelegate.swift */,
-				29F4D56321916EE900BB9B99 /* ViewController.swift */,
-				29F4D56521916EE900BB9B99 /* Main.storyboard */,
+				29F4D5B121916FBC00BB9B99 /* TableViewOnline.swift */,
+				29AE47062196887A0094CB9E /* Song.swift */,
+				29F4D5B321916FC600BB9B99 /* Main.storyboard */,
 				29F4D56821916EEA00BB9B99 /* Assets.xcassets */,
 				29F4D56A21916EEA00BB9B99 /* LaunchScreen.storyboard */,
 				29F4D56D21916EEA00BB9B99 /* Info.plist */,
@@ -123,6 +164,45 @@
 				29F4D58321916EEA00BB9B99 /* Info.plist */,
 			);
 			path = Mp3Zing_displayData_v1UITests;
+			sourceTree = "<group>";
+		};
+		29F4D58F21916F4C00BB9B99 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				29F4D59521916F6F00BB9B99 /* duration.png */,
+				29F4D59721916F6F00BB9B99 /* Full-color-phone-wallpaper.jpg */,
+				29F4D59921916F6F00BB9B99 /* iconOnline.png */,
+				29F4D59021916F6F00BB9B99 /* maxVolume.png */,
+				29F4D59121916F6F00BB9B99 /* minVolume.png */,
+				29F4D59221916F6F00BB9B99 /* pause.png */,
+				29F4D59821916F6F00BB9B99 /* play.png */,
+				29F4D59321916F6F00BB9B99 /* thumb.png */,
+				29F4D59621916F6F00BB9B99 /* thumbHightLight.png */,
+				29F4D59421916F6F00BB9B99 /* zing-mp3.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		29F4D5A421916F7B00BB9B99 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				29F4D5AD21916F8D00BB9B99 /* TFHpple.h */,
+				29F4D5AC21916F8D00BB9B99 /* TFHpple.m */,
+				29F4D5AA21916F8D00BB9B99 /* TFHppleElement.h */,
+				29F4D5A821916F8D00BB9B99 /* TFHppleElement.m */,
+				29F4D5A721916F8D00BB9B99 /* XPathQuery.h */,
+				29F4D5A921916F8D00BB9B99 /* XPathQuery.m */,
+				29F4D5A521916F8C00BB9B99 /* Mp3Zing_displayData_v1-Bridging-Header.h */,
+			);
+			path = Hpple;
+			sourceTree = "<group>";
+		};
+		29F4D5B52191701100BB9B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29F4D5B62191701200BB9B99 /* libxml2.2.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +273,7 @@
 				TargetAttributes = {
 					29F4D55D21916EE900BB9B99 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					29F4D57121916EEA00BB9B99 = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,9 +310,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29F4D59E21916F6F00BB9B99 /* zing-mp3.jpg in Resources */,
+				29F4D59F21916F6F00BB9B99 /* duration.png in Resources */,
 				29F4D56C21916EEA00BB9B99 /* LaunchScreen.storyboard in Resources */,
 				29F4D56921916EEA00BB9B99 /* Assets.xcassets in Resources */,
-				29F4D56721916EE900BB9B99 /* Main.storyboard in Resources */,
+				29F4D59C21916F6F00BB9B99 /* pause.png in Resources */,
+				29F4D5A221916F6F00BB9B99 /* play.png in Resources */,
+				29F4D59A21916F6F00BB9B99 /* maxVolume.png in Resources */,
+				29F4D5B421916FC600BB9B99 /* Main.storyboard in Resources */,
+				29F4D5A021916F6F00BB9B99 /* thumbHightLight.png in Resources */,
+				29F4D59B21916F6F00BB9B99 /* minVolume.png in Resources */,
+				29F4D5A321916F6F00BB9B99 /* iconOnline.png in Resources */,
+				29F4D59D21916F6F00BB9B99 /* thumb.png in Resources */,
+				29F4D5A121916F6F00BB9B99 /* Full-color-phone-wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +347,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29F4D56421916EE900BB9B99 /* ViewController.swift in Sources */,
+				29F4D5B021916F8D00BB9B99 /* TFHpple.m in Sources */,
+				29AE47072196887A0094CB9E /* Song.swift in Sources */,
+				29F4D5AE21916F8D00BB9B99 /* TFHppleElement.m in Sources */,
+				29F4D5AF21916F8D00BB9B99 /* XPathQuery.m in Sources */,
 				29F4D56221916EE900BB9B99 /* AppDelegate.swift in Sources */,
+				29F4D5B221916FBC00BB9B99 /* TableViewOnline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +388,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		29F4D56521916EE900BB9B99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29F4D56621916EE900BB9B99 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		29F4D56A21916EEA00BB9B99 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,15 +519,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGY9E5E6J5;
+				HEADER_SEARCH_PATHS = "$(sdkroot)/usr/include/libxml2";
 				INFOPLIST_FILE = Mp3Zing_displayData_v1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Senegal.Mp3Zing-displayData-v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mp3Zing_displayData_v1/Hpple/Mp3Zing_displayData_v1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,15 +545,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGY9E5E6J5;
+				HEADER_SEARCH_PATHS = "$(sdkroot)/usr/include/libxml2";
 				INFOPLIST_FILE = Mp3Zing_displayData_v1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Senegal.Mp3Zing-displayData-v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mp3Zing_displayData_v1/Hpple/Mp3Zing_displayData_v1-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
